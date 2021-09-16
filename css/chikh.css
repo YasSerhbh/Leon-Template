@@ -71,12 +71,97 @@ html {
 .header {
     padding: 20px;
     background-color: #fff;
+    position: relative;
 }
 
 .header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.sears {
+    width: 180px;
+    height: 40px;
+    position: absolute;
+    background-color: #f7f7f7;
+    border-radius: 40px;
+    left: 73%;
+}
+
+.search-box {
+    position: absolute;
+    left: 73%;
+    background-color: hsl(200deg 32% 26%);
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px 0;
+}
+.search-txt {
+    outline: none;
+    border: none;
+    background:none;
+    float: right;
+    color: white;
+    padding: 0;
+    font-size: 16px;
+    transition: 200ms;
+    line-height: 20px;
+    width: 0px;
+}
+.search-btn {
+    color: var(--main-color);
+    float: left;
+    position: relative;
+    width: 40px;
+    right: 0;
+    top: -10px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: hsl(200deg 32% 26%);
+    text-align: center;
+}
+.search-btn i {
+    position: relative;
+    top: 25%;
+}
+.search-box:hover .search-txt {
+    width: 130px;
+}
+.search-box:hover {
+    padding-left: 10px;
+}
+.search-box:hover .search-btn {
+    background-color: white;
+    right: 10px;
+}
+@media (max-width: 790px) {
+    .search-btn i {
+        top: 17%;
+    }
+    .search-box:hover .search-txt {
+        width: 90px;
+    }
+    .search-txt {
+        font-size: 12px;
+        line-height: 13px;
+    }
+    .search-box {
+        height: 30px;
+        border-radius: 30px;
+        left: 47%;
+        top: 30%;
+    }
+    .sears {
+        width: 130px;
+        height: 30px;
+        left: 47%;
+        top: 30%;
+    }
+    .search-btn {
+         width: 30px;
+         height: 30px;
+    }
 }
 
 .header .container .logo {
