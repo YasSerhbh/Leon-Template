@@ -207,7 +207,7 @@ html {
     right: 0px;
 }
 
-.header .container .list ul li {
+.header .container .list ul .tita1 {
     height: 50px;
     display: flex;
     align-items: center;
@@ -224,13 +224,21 @@ html {
     transition: 200ms;
     align-items: center;
 }
+.tita2 {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding-left: 7px;
+    background-color: #d0d0d0;
+}
 
-.header .container .list ul li:hover a {
+.header .container .list ul .tita1:hover a {
     padding-left: 30px;
     color: var(--main-color);
 }
 
-.header .container .list ul li:hover {
+.header .container .list ul .tita1:hover {
     border-bottom: 1px solid var(--main-color);
 }
 /* Header End  */
