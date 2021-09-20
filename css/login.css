@@ -230,6 +230,7 @@
 .log-box {
     max-width: 600px;
     height: 70vh;
+    min-height: fit-content;
     background-color: transparent;
     position: relative;
     min-width: 300px;
