@@ -354,9 +354,14 @@ html {
 }
 .card {
     background-color: #fff;
+    box-shadow: black 0px 0px 19px -8.9px;
 }
 .card h3 {
     margin: 0;
+    padding-left: 5px;
+}
+.card p {
+    padding-left: 5px;
 }
 /* Portfolio-End */
 
