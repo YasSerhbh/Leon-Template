@@ -216,6 +216,7 @@
     background: url(../imgs/mount.jpg);
     background-size: cover;
     height: calc(100vh - 68px);
+    min-height: 490px;
 }
 
 @media (min-width: 1150px) {
@@ -229,7 +230,7 @@
 }
 .log-box {
     max-width: 600px;
-    height: 70vh;
+    height: 450px;
     min-height: fit-content;
     background-color: transparent;
     position: relative;
