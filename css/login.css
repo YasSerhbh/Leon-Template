@@ -316,9 +316,16 @@ footer {
 }
 footer p {
     margin: unset;
+    margin-right: 10px;
 }
 footer p a {
     text-decoration: none;
     color: var(--main-color);
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 /* Footer-End */

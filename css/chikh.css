@@ -497,14 +497,21 @@ footer {
     background-color:  hsl(200deg 32% 26%);
     text-align: center;
     color: white;
-    padding: 50px 0;
+    padding: 20px 0;
     font-weight: bold;
 }
 footer p {
     margin: unset;
+    margin-right: 10px;
 }
 footer p a {
     text-decoration: none;
     color: var(--main-color);
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 /* Footer-End */
